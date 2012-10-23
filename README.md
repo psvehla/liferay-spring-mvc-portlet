@@ -6,7 +6,7 @@ A Liferay Spring Portlet MVC project template using Maven.
 * Liferay EE 6.1.20
 * Java 1.6
 * Portlet 2.0
-* Spring Framework 3.1.1
+* Spring Framework 3.1.2
 * Annotation-based controller configuration
 
 Usage
