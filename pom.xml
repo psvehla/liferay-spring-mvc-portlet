@@ -14,11 +14,11 @@
 		<java-version>1.6</java-version>
 		<portlet-api.version>2.0</portlet-api.version>
 		<servlet-api.version>2.5</servlet-api.version>
-		<jsp-api.version>2.1</jsp-api.version>
+		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>3.1.2.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.6.9</org.aspectj-version>
-		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<org.springframework-version>3.2.3.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.7.3</org.aspectj-version>
+		<org.slf4j-version>1.7.5</org.slf4j-version>
 	</properties>
 	
 	<dependencies>
@@ -99,7 +99,7 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.15</version>
+			<version>1.2.17</version>
 			<exclusions>
 				<exclusion>
 					<groupId>javax.mail</groupId>
@@ -159,7 +159,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.7</version>
+			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
