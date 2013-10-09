@@ -8,6 +8,10 @@
 	<name>Liferay Spring MVC Portlet</name>
 	<version>1.0-RELEASE</version>
 	
+	<prerequisites>
+		<maven>3.1.1</maven>
+	</prerequisites>
+		
 	<properties>
 		<liferay.version>6.1.20</liferay.version>
 		<liferay.auto.deploy.dir>F:\java\liferay-portal-6.1.20-ee-ga2\deploy</liferay.auto.deploy.dir>
@@ -16,7 +20,7 @@
 		<servlet-api.version>2.5</servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>3.2.3.RELEASE</org.springframework-version>
+		<org.springframework-version>3.2.4.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.7.3</org.aspectj-version>
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 	</properties>
@@ -178,7 +182,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.5.1</version>
+				<version>3.1</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<source>${java-version}</source>
@@ -196,7 +200,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>2.8</version>
+				<version>2.9</version>
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
