@@ -6,7 +6,7 @@ A Liferay Spring Portlet MVC project template using Maven.
 * Liferay EE 6.1.20
 * Java 1.6
 * Portlet 2.0
-* Spring Framework 3.2.4
+* Spring Framework 3.2.5
 * Annotation-based controller configuration
 
 Usage
@@ -38,8 +38,8 @@ Default settings are Liferay EE 6.1.20, Java 1.6, Portlet 2.0, and Spring 3.2.  
 		<servlet-api.version>2.5</servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>3.2.4.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.7.3</org.aspectj-version>
+		<org.springframework-version>3.2.5.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.7.4</org.aspectj-version>
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 	</properties>
 ```
