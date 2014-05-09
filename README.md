@@ -3,10 +3,10 @@ Liferay Spring Portlet MVC
 
 A Liferay Spring Portlet MVC project template using Maven.
 
-* Liferay EE 6.1.20
-* Java 1.6
+* Liferay EE 6.2.10.4 (SP3)
+* Java 1.7
 * Portlet 2.0
-* Spring Framework 3.2.5
+* Spring Framework 4.0.4
 * Annotation-based controller configuration
 
 Usage
@@ -28,19 +28,20 @@ $ cp target/liferay-spring-mvc-portlet.war $LIFERAY_HOME/deploy/
 Configuration
 -------------
 
-Default settings are Liferay EE 6.1.20, Java 1.6, Portlet 2.0, and Spring 3.2.  All can be configured in [pom.xml](https://github.com/psvehla/liferay-spring-mvc-portlet/pom.xml)
+Default settings are Liferay EE 6.2.10.4, Java 1.7, Portlet 2.0, and Spring 4.0.  All can be configured in [pom.xml](https://github.com/psvehla/liferay-spring-mvc-portlet/pom.xml)
 
 ```xml
 	<properties>
-		<liferay.version>6.1.20</liferay.version>
-		<java-version>1.6</java-version>
+		<liferay.version>6.2.10.4</liferay.version>
+		<liferay.auto.deploy.dir>F:\java\liferay-portal-6.1.20-ee-ga2\deploy</liferay.auto.deploy.dir>
+		<java-version>1.7</java-version>
 		<portlet-api.version>2.0</portlet-api.version>
 		<servlet-api.version>2.5</servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>3.2.5.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.7.4</org.aspectj-version>
-		<org.slf4j-version>1.7.5</org.slf4j-version>
+		<org.springframework-version>4.0.4.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.8.0</org.aspectj-version>
+		<org.slf4j-version>1.7.7</org.slf4j-version>
 	</properties>
 ```
 
@@ -70,6 +71,6 @@ $ mvn archetype:generate -DarchetypeCatalog=local
 Licence
 -------
 
-Copyright 2013 Red Barn Consulting
+Copyright 2014 Red Barn Consulting
 
 Licenced under the LGPL Licence, Version 3.0: http://www.gnu.org/licenses/lgpl.html

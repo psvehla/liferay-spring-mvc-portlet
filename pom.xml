@@ -6,23 +6,23 @@
 	<artifactId>liferay-spring-mvc-portlet</artifactId>
 	<packaging>war</packaging>
 	<name>Liferay Spring MVC Portlet</name>
-	<version>1.1-RELEASE</version>
+	<version>1.2-RELEASE</version>
 	
 	<prerequisites>
 		<maven>3.1.1</maven>
 	</prerequisites>
 		
 	<properties>
-		<liferay.version>6.1.20</liferay.version>
+		<liferay.version>6.2.10.4</liferay.version>
 		<liferay.auto.deploy.dir>F:\java\liferay-portal-6.1.20-ee-ga2\deploy</liferay.auto.deploy.dir>
-		<java-version>1.6</java-version>
+		<java-version>1.7</java-version>
 		<portlet-api.version>2.0</portlet-api.version>
 		<servlet-api.version>2.5</servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>3.2.5.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.7.4</org.aspectj-version>
-		<org.slf4j-version>1.7.5</org.slf4j-version>
+		<org.springframework-version>4.0.4.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.8.0</org.aspectj-version>
+		<org.slf4j-version>1.7.7</org.slf4j-version>
 	</properties>
 	
 	<dependencies>
@@ -176,6 +176,7 @@
 				<version>${liferay.version}</version>
 				<configuration>
 					<autoDeployDir>${liferay.auto.deploy.dir}</autoDeployDir>
+					<appServerPortalDir>${liferay.app.server.portal.dir}</appServerPortalDir>
 					<liferayVersion>${liferay.version}</liferayVersion>
 					<pluginType>portlet</pluginType>
 				</configuration>
