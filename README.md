@@ -3,7 +3,7 @@ Liferay Spring Portlet MVC
 
 A Liferay Spring Portlet MVC project template using Maven.
 
-* Liferay EE 6.2.10.4 (SP3)
+* Liferay EE 6.2.10.4 (GA1, SP3)
 * Java 1.7
 * Portlet 2.0
 * Spring Framework 4.0.6
@@ -56,7 +56,7 @@ Add an entry for the archetype in: ```~/.m2/archetype-catalog.xml```
 <archetype>
   <groupId>au.com.redbarn</groupId>
   <artifactId>liferay-spring-mvc-portlet-archetype</artifactId>
-  <version>1.0-RELEASE</version>
+  <version>1.3-RELEASE</version>
   <repository>https://raw.github.com/psvehla/maven-repo/master/releases</repository>
   <description>liferay-spring-mvc-portlet-archetype</description>
 </archetype>
