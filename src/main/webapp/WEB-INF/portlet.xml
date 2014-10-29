@@ -4,8 +4,8 @@
 	version="2.0"
 	xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
->
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" >
+
 	<portlet>
 		<portlet-name>liferay-spring-mvc-portlet</portlet-name>
 		<display-name>Liferay Spring MVC Portlet</display-name>
