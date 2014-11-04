@@ -56,7 +56,7 @@ Add an entry for the archetype in: ```~/.m2/archetype-catalog.xml```
 <archetype>
   <groupId>au.com.redbarn</groupId>
   <artifactId>liferay-spring-mvc-portlet-archetype</artifactId>
-  <version>1.4-RELEASE</version>
+  <version>1.5-RELEASE</version>
   <repository>https://raw.github.com/psvehla/maven-repo/master/releases</repository>
   <description>liferay-spring-mvc-portlet-archetype</description>
 </archetype>
