@@ -40,7 +40,7 @@ Default settings are Liferay EE 6.2.10.4, Java 1.7, Portlet 2.0, and Spring 4.1.
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
 		<org.springframework-version>4.1.1.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.8.2</org.aspectj-version>
+		<org.aspectj-version>1.8.3</org.aspectj-version>
 		<org.slf4j-version>1.7.7</org.slf4j-version>
 	</properties>
 ```
