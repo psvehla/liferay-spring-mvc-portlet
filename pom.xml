@@ -6,23 +6,23 @@
 	<artifactId>liferay-spring-mvc-portlet</artifactId>
 	<packaging>war</packaging>
 	<name>Liferay Spring MVC Portlet</name>
-	<version>1.5-RELEASE</version>
+	<version>1.6-RELEASE</version>
 	
 	<prerequisites>
 		<maven>3.1.1</maven>
 	</prerequisites>
 		
 	<properties>
-		<liferay.version>6.2.10.8</liferay.version>
+		<liferay.version>6.2.10.11</liferay.version>
 		<liferay.auto.deploy.dir>F:\java\liferay-portal-6.1.20-ee-ga2\deploy</liferay.auto.deploy.dir>
 		<java-version>1.7</java-version>
 		<portlet-api.version>2.0</portlet-api.version>
 		<servlet-api.version>2.5</servlet-api.version>
 		<jsp-api.version>2.2</jsp-api.version>
 		<jstl.version>1.2</jstl.version>
-		<org.springframework-version>4.1.1.RELEASE</org.springframework-version>
-		<org.aspectj-version>1.8.3</org.aspectj-version>
-		<org.slf4j-version>1.7.7</org.slf4j-version>
+		<org.springframework-version>4.1.5.RELEASE</org.springframework-version>
+		<org.aspectj-version>1.8.5</org.aspectj-version>
+		<org.slf4j-version>1.7.10</org.slf4j-version>
 	</properties>
 	
 	<dependencies>
@@ -163,7 +163,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
